@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 0;
+}
+body{
+    margin: 1em;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: rgba(38, 38, 38, 1);
+    color: white;
+    display: flex;
+    justify-content: space-between;   
+    box-shadow: 4px 10px 10px  rgba(25, 25, 25,0.8);
+}
+.my-portfolio {
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'pacifico', cursive;
+    text-shadow: 7px 4px 10px rgba(25, 25, 25, 0.8);
+}
+
+
+div.nav-list>ul {
+    display: flex;
+    list-style-type: none; 
+}
+.nav-list a {
+    text-decoration: none;
+    
+}
+div.nav-list>ul>li {
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+div.home-section {
+    width: auto;
+    background-color: black;
+    height: 580px;
+}
+div.introtxt {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 150px;
+    color: white;
+    font-family: 'caveat', cursive;
+    font-size: 70px;
+}
+.about {
+    margin-top: 0px;
+    background-color: black;
+    padding-top: 20px;
+}
+.about>h2 {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+div#aboutme {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: space-evenly;
+}
+div#aboutme>p {
+    width: 700px;
+    line-height: 1.9;
+    font-size: 20px;
+    color: white;
+}
+.webimg>img {
+    width: 700px
+}
+.prj-container {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+ 
+}
+.prjinner1>a+p {
+    text-align: center;
+}
+.prjinner2>a+p {
+    text-align: center;
+}
+
+div.prjinner1>a>img {
+    width: 400px;
+    box-shadow: 10px 10px 10px rgba(25, 25, 25, 0.8);
+    background-color: black;
+
+}
+div.prjinner2>a>img{
+    width: 400px;
+    box-shadow: 10px 10px 10px rgba(25, 25, 25,0.8);
+    background-color: black;
+}
+.myprojects h2 {
+    text-align: center;
+}
+.contact>h2 {
+    text-align: center;
+    color: white;
+    
+    
+}
+.contact {
+    background-color: black;
+    height: 80px;
+    padding-bottom: 2px;
+}
+.contact-inner {
+    display: flex;
+    justify-content: space-between;
+}
+.contact-inner>p {
+    text-decoration: none;
+    color: white;
+}
+.contact-inner>p>a {
+    color: white
+}
+
